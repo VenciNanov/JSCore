@@ -1,6 +1,7 @@
 function gcd(a, b) {
     if (a == 0)
         return b;
+        debugger
 
     while (b != 0) {
         if (a > b)
@@ -11,4 +12,4 @@ function gcd(a, b) {
 
     return a;
 }
-console.log(egcd(15, 5))
+console.log(gcd(15, 5))

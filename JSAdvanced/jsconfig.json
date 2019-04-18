@@ -1,0 +1,10 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "jquery",
+            "handlebars",
+            "typescript",
+            "javascript"
+        ]
+    }
+}

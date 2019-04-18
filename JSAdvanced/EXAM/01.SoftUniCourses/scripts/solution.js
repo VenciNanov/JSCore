@@ -10,6 +10,7 @@ function solve() {
 
       let coursesElements = $('input[type="checkbox"]:checked').each(function () {
          selected.push($(this).val())
+         this.checked = false;
       })
 
       let type = $('input[type="radio"]:checked').val();
@@ -91,6 +92,8 @@ function solve() {
       let costElement = $('#myCourses .courseFoot p');
       console.log(cost)
       costElement.text(`Cost: ${Math.floor(cost).toFixed(2)} BGN`)
+
+      
    })
 
 
